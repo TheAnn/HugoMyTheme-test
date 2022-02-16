@@ -1,4 +1,20 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = "ananke"
+theme = "hyde"
+
+
+[params]
+description = "This is development of Anna's portfolio website"
+
+[[menus.main]]
+url=""
+name="Portfolio"
+
+[[menus.main]]
+url=""
+name="Writings"
+
+[[menus.main]]
+url=""
+name="About"
