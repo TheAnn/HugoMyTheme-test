@@ -1,33 +1,47 @@
 {{ define "main" -}}
 <div class="posts">
-  <!-- Welcome home part-->
   <div class="welcome">
-<h1> Hi, I'm Anna </h1>
+  <h1> Hi, I'm <span>Anna</span> </h1>
+  <h3> Data analyst, visualisation designer, and spontaneous developer with MSc in technology and science. I use my background as a researcher to better understand the world around me through data, and to enthusiastically share the insights.
+  <br>Briefly, I just love to design and develop truthful, functional, beautiful and enlightening data visualisations. For all kinds of fields - from BI to journalism. </h3>
+  </div>
 
-<!-- {{- $image := resources.Get "images/hover.png" -}}
-<img src="./images/hover.png" > -->
+  <h3> Curated projects, data stories, artwork, and sketches </h3>
 
-<h3> Data analyst and visualisation designer </h3>
+  {{ range where site.RegularPages "Type" "portfolio" }}
+  <article class="post">
 
-<!-- <img src="hover.png" > -->
-</div>
-
-{{ range .Site.RegularPages -}}
-<h3>Anna?</h3>
-
-<article class="post">
   <h1 class="post-title">
     <a href="{{ .Permalink }}">{{ .Title }}</a>
   </h1>
   <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}" class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
   {{ .Summary }}
   {{ if .Truncated }}
-
   <div class="read-more-link">
     <a href="{{ .RelPermalink }}">Read More…</a>
   </div>
   {{ end }}
 </article>
 {{- end }}
+
+<h3> A collection of tutorials, making-of’s, presentations, and mad ramblings </h3>
+
+{{ range where site.RegularPages "Type" "writings" }}
+
+<article class="post">
+
+<h1 class="post-title">
+  <a href="{{ .Permalink }}">{{ .Title }}</a>
+</h1>
+<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}" class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+{{ .Summary }}
+{{ if .Truncated }}
+<div class="read-more-link">
+  <a href="{{ .RelPermalink }}">Read More…</a>
+</div>
+{{ end }}
+</article>
+{{ end }}
+
 </div>
 {{- end }}

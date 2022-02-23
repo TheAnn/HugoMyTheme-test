@@ -1,18 +1,6 @@
-/*
- *  __                  __
- * /\ \                /\ \
- * \ \ \___   __  __   \_\ \     __
- *  \ \  _ `\/\ \/\ \  /'_` \  /'__`\
- *   \ \ \ \ \ \ \_\ \/\ \_\ \/\  __/
- *    \ \_\ \_\/`____ \ \___,_\ \____\
- *     \/_/\/_/`/___/> \/__,_ /\/____/
- *                /\___/
- *                \/__/
- *
- * Designed, built, and released under MIT license by @mdo. Learn more at
+/* Original Hyde theme that served as template was designed, built, and released under MIT license by @mdo. Learn more at
  * https://github.com/poole/hyde.
  */
-
 
 /*
  * Contents
@@ -24,51 +12,76 @@
  * Themes
  */
 
-
-/*
- * Global resets
- *
- * Update the foundational and global aspects of the page.
- */
-
 html {
   font-family: "Andale Mono", "Adoha", sans-serif;
 }
 @media (min-width: 48em) {
   html {
-    font-size: 16px;
+    font-size: 14px;
+  }
+
+  .welcome h1 {
+    font-size: 40px;
+  }
+
+  .circled img{
+    width: 80px;
   }
 }
 @media (min-width: 58em) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
+
+  .welcome h1 {font-size: 60px;}
+  .circled img{ width: 175px;}
 }
 
 /*
  * homepage
  */
+
  .welcome{
-  height: 100vh;
-  margin:0px;
+  position: relative;
+  margin-top: 25%;
+  height: 70vh;
+  text-align: left;
+ }
+
+
+/* .myName img{
+  width 250px;
+} */
+
+h1 span{
+  padding:30px;
+  padding-left: 15px;
+  margin-left: -5px;
+  background-image: url(circled.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-decoration: none;
 }
 
  .welcome h1 {
    animation: fadeInAnimation ease 1s;
    animation-iteration-count: 1;
    animation-fill-mode: forwards;
-   margin-top: 40%;
-   font-family:"Adoha", sans-serif;
-   font-weight: normal;
-   font-size: 60px;
-   line-height: 0.1;
+   font-family:"Adoha";
+   font-weight: 100;
  }
 
  .welcome h3{
-   font-family: "Andale Mono";
-   animation: fadeInAnimation2 ease 2s;
+   /* font-family: "Andale Mono"; */
+   animation: fadeInAnimation2 ease 3s;
    font-weight: 100;
+   line-height: 1.4;
+   margin-top: 0;
+   font-size: 20px;
  }
+
+
 
  @keyframes fadeInAnimation {
     0% {
@@ -83,15 +96,14 @@ html {
 @keyframes fadeInAnimation2 {
    0% {
        opacity: 0;
-       padding-left: 200px;
+       margin-top: 40px;
    }
-50%{
-  opacity:0;
-}
+
 
    100% {
        opacity: 1;
-       padding-left: 0px;
+       margin-top: 0;
+       z-index: 999;
     }
 }
 
@@ -123,18 +135,23 @@ html {
 /* Sidebar links */
 .sidebar a {
   color: #8C9586;
-  padding-right: 4px;
+  padding-right: 15px;
   line-height: 2;
 }
 
-.sidebar a:hover {
+.sidebar .links a:hover {
   color: black;
-  background-color: #DBD2C7;
-  border-radius: 3px;
-  padding:4px;
-  padding-left: 8px;
-  /* background-image: url (hover.png); */
+  padding:15px;
+  padding-left: 15px;
+  background-position: center;
+  background-image: url(hover.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
   text-decoration: none;
+}
+
+.sidebar .icons a:hover {
+  color:black;
 }
 
 /* About section */
@@ -186,6 +203,7 @@ a.sidebar-nav-item:focus {
 p.copyright {
   font-size: 12px;
   text-align: right;
+  padding-right: 15px;
   position: absolute;
   right:  2rem;
   bottom: 1rem;
@@ -206,16 +224,17 @@ p.copyright {
 
 @media (min-width: 48em) {
   .content {
-    max-width: 38rem;
+    max-width: 44rem;
     margin-left: 20rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
   }
 }
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 22rem;
-    margin-right: 4rem;
+    max-width: 44rem;
+    margin-left: 19rem;
+    margin-right: 2rem;
   }
 }
 
