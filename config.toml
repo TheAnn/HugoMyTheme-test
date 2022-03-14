@@ -1,11 +1,11 @@
 theme = "HaleBopp"
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Anna Lunterova'
 
 
 [params]
-description = "This is development of Anna's portfolio website"
+description = "This is development of Anna's portfolio website through Hugo"
 
 [[menus.main]]
 url=""
