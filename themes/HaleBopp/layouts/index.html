@@ -23,7 +23,7 @@
 
 <div id="Writings" class="writings">
   <span> </span>
-  <h3> A collection of tutorials, making-of’s, presentations, and mad ramblings </h3>
+  <h3> A collection of tutorials, making-of’s, presentations, and mad ramblings </h3> <br> 
 {{ range where site.RegularPages "Type" "writings" }}
 
 <h1 class="post-title">
@@ -33,8 +33,7 @@
 <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}" class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
 {{ .Summary }}
 {{ if .Truncated }}
-<div class="read-more-link">
-  <a href="{{ .RelPermalink }}">Read More…</a>
+<div class="read-more-link"> <a href="{{ .RelPermalink }}">Read More…</a>
 </div>
 {{ end }}
 {{ end }}
