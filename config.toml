@@ -1,5 +1,5 @@
 theme = "HaleBopp"
-baseURL = 'https://theann.github.io'
+baseURL = 'https://theann.github.io/'
 languageCode = 'en-us'
 title = 'Anna Lunterova'
 
