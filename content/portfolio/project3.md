@@ -1,10 +1,10 @@
 ---
-title: "Project 3"
-date: 2022-02-20T11:27:07+01:00
-draft: true
+title: "Master thesis"
+date: 2022-02-19T11:27:07+01:00
+draft: false
 description: ""
 Summary: ""
-mainPicture : "/images/project4.png"
+mainPicture : "/images/foodpoint.png"
 ---
 
-project 3 is empty for now
+A lot of missing text..
