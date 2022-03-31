@@ -3,15 +3,15 @@
   <div id="About" class="welcome">
   <h1> Hi, I'm <span>Anna</span> </h1>
   <h3> Data analyst, visualisation designer, and spontaneous developer with MSc in technology and science. I use my background as a researcher to better understand the world around me through data and to enthusiastically share the insights.
-  <br>Briefly, I just love to design and develop truthful, functional, beautiful and enlightening data visualisations. For all kinds of fields - from BI to journalism. </h3>
+  <br>I just love to design and develop truthful, functional, beautiful and enlightening data visualisations. For all kinds of fields - from BI to journalism. </h3>
   </div>
 
 
 <div id="Portfolio" class="portfolio">
-  <h3> Curated projects, data stories, artwork, and sketches <br><br></h3>
+  <h3> Curated projects, data stories, artwork, and sketches </h3> <p>Under construction..</p> <br><br>
   <span class="projects">
   {{ range where site.RegularPages "Type" "portfolio" }}
-<div class="project">
+<div class="project" style="background-image: url('{{ .Params.mainPicture }}');">
   <h2 class="title">
     <a href="{{ .Permalink }}">{{ .Title }}</a>
   </h2>
@@ -23,7 +23,7 @@
 
 <div id="Writings" class="writings">
   <span> </span>
-  <h3> A collection of tutorials, making-of’s, presentations, and mad ramblings </h3> <br> 
+  <h3> A collection of tutorials, making-of’s, presentations, and mad ramblings </h3> <br>
 {{ range where site.RegularPages "Type" "writings" }}
 
 <h1 class="post-title">

@@ -4,5 +4,5 @@ date: {{ .Date }}
 draft: true
 description: ""
 Summary: ""
-category : ""
+mainPicture : ""
 ---
