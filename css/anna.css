@@ -48,6 +48,7 @@ html {
   color:white;
   background-color: black;
   font-weight: bold;
+  padding:0px 5px 0px 5px;
 }
 
 /* Writings */
@@ -137,9 +138,9 @@ a.sidebar-nav-item:focus {
 
 h1 span{
   padding:30px;
-  padding-left: 15px;
+  padding-left: 16px;
   margin-left: -5px;
-  background-image: url(circled.svg);
+  background-image: url(circled.gif);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
