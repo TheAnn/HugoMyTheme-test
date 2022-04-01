@@ -1,6 +1,6 @@
 ---
 title: "Master thesis"
-date: 2022-02-31T10:55:44+02:00
+date: 2022-02-10T11:22:54+01:00
 draft: false
 description: ""
 mainPicture : "/images/foodpoint.png"

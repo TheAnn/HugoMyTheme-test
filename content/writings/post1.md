@@ -1,15 +1,12 @@
 ---
-title: "Towards a critical data practice"
+title: "Towards a critical data practice, episode 1"
 date: 2022-02-20T11:18:31+01:00
 draft: false
 description: ""
 Summary:
 ---
 
-
-## Episode 1 ##
-
-Whether we are aware of this phenomenon or not, we are all data collectors. Our brains are carefully (and sometimes seemingly randomly) collecting and storing informations, ranging from personal experiences to learnt facts and knowledge. I believe **prioritising asking the right questions and listening actively, promotes a culture of learning**, furthermore allowing us to have a direct influence on our assembled data.
+Whether we are aware of this phenomenon or not, we are all data collectors. Our brains are carefully (and sometimes [seemingly randomly](https://www.sciencedirect.com/science/article/abs/pii/S0010028503001154?via%3Dihub)) collecting and storing informations, ranging from personal experiences to learnt facts and knowledge. I believe **prioritising asking the right questions and listening actively, promotes a culture of learning**, furthermore allowing us to have a direct influence on our assembled data.
 
 I dedicate my first article to the first part of the data visualisation process - **know the questions you want to answer**. Because a good question, such as a good data viz, is a conversation starter, and - let’s hope - a catalyst for change.
 
@@ -60,10 +57,10 @@ Ways to signal listening actively:
 - After more emotional answer, naming what feeling was noticed. Asking if there is more that he/she wishes to share.
 - Sharing *impact* or personal perception on what was said. Yet often we take it as implicit that the person cares about our opinion or additional thoughts. Asking if they wish to hear our thoughts or even advice, underlines our patience towards the person and might invite more curiosity on their side.
 
-Meanwhile the following note is mostly regarding emotional management rather than part of data practice, it affects the quality with which we are interacting at social interactions. I often find myself wondering, when the conversation feels difficult, it is likely signifying something about me. Either I am reacting to the person themselves or the content of the discussion is threatening my identity, or perhaps I feel dismissed or wronged. Whatever it is, to identify my own triggers I ask myself: “If I know nothing else about myself, I know that I am a BLANK person.“ Recognising and welcoming the BLANK person is first step towards bringing back safety and confidence.
+Meanwhile the following note is mostly regarding emotional management rather than part of data practice, it affects the quality with which we are interacting at social interactions. I often find myself wondering, when the conversation feels difficult, it is likely signifying something about me. Either I am reacting to the person themselves or the content of the discussion is threatening my identity, or perhaps I feel dismissed or wronged. Whatever it is, to identify my own triggers I ask myself: “If I know nothing else, I know now that I am a blahblahblah person.“ Recognising and welcoming the blahblahblah person is first step towards bringing back safety and confidence.
 
 If you got all the way here I wish that this article provided you with some new insights or ideas to research, whatever they might be about. I always appreciate receiving feedback - it takes a village to raise a person. Otherwise I move on to invite a reflection: Where crafting curious questions and attending to the answers could enrich your life?
 
 ////
 
-The notion of “critical data practice” is a nod to Philip E. Agre’s notion of “critical technical practice”, which he describes in terms of having “one foot planted in the craft work of design and the other foot planted in the reflexive work of critique” (Agre, 1997, p. 155).
+Term “critical data practice” comes from Philip E. Agre’s notion of “critical technical practice”, which he describes as having “one foot planted in the craft work of design and the other foot planted in the reflexive work of critique” (Agre, 1997, p. 155).
