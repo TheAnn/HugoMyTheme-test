@@ -12,9 +12,19 @@
  * Themes
  */
 
+ @font-face {
+  font-family: Adoha;
+  src: url(Adoha.otf);
+}
+@font-face {
+ font-family: Andale-Mono;
+ src: url(ANDALEMO.TTF);
+}
+
+
+
 html {
-  font-family: "Andale Mono", "Adoha", sans-serif;
-  /* font-family: "Times New Roman", "Calibri", sans-serif; */
+  font-family: Andale-Mono, Adoha, sans-serif;
 }
 
 
