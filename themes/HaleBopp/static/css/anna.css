@@ -21,10 +21,16 @@
  src: url(ANDALEMO.TTF);
 }
 
+.welcome h3 {
+  font-size :15px;
+  font-weight: 100;
+  -webkit-text-stroke: 0;
+}
 
 
 html {
   font-family: Andale-Mono, Adoha, sans-serif;
+  line-height: 1.5;
 }
 
 
@@ -167,6 +173,11 @@ h1 span{
     font-size: 35px;
   }
 
+  .welcome h3 {
+    font-size :15px;
+    font-weight: 100;
+  }
+
   .circled img{
     width: 75px;
   }
@@ -175,6 +186,11 @@ h1 span{
 
   html {
     font-size: 16px;
+  }
+
+  .welcome h3 {
+    font-size: 20px;
+
   }
 
   /* gradient */
@@ -231,7 +247,6 @@ h1 span{
    font-weight: 100;
    line-height: 1.4;
    margin-top: 0;
-   font-size: 20px;
    -webkit-text-stroke: 0;
  }
 
