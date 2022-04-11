@@ -71,6 +71,10 @@ a:focus {
   text-decoration: none;
 }
 
+.post a{
+  text-decoration: underline;
+}
+
 /* Headings */
 h1{
   font-family:"Adoha";
@@ -114,7 +118,7 @@ p {
 strong {
   color: black;
   font-weight: 200;
-  -webkit-text-stroke: thin;
+  -webkit-text-stroke: 1.2px;
 }
 
 
